@@ -3,8 +3,6 @@
     Constraints:
         1≤n≤2⋅105
         1≤xi≤109
-
-    Solution link: https://cses.fi/paste/e6921b435e4498606a805c/
 */
 #include <iostream>
 #include <set>

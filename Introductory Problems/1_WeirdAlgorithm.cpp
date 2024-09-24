@@ -3,9 +3,7 @@
     3→10→5→16→8→4→2→1
     Your task is to simulate the execution of the algorithm for a given value of n.
     Constraints:
-        1≤n≤106
-
-    Solution link: https://cses.fi/paste/864f2101db9dc3d66a6fda/
+        1≤n≤10^6
 */
 #include <iostream>
 using namespace std;
