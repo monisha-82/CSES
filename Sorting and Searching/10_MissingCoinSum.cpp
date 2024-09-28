@@ -6,7 +6,22 @@ using namespace std;
 const int mod = 998244353;
 
 void solve(){
-	
+	int n;
+	cin >> n;
+	vector<int> coins(n);
+	for(int i=0; i<n; i++){
+		cin >> coins[i];
+	}
+	sort(coins.begin(), coins.end());
+	int sum = 1;
+	for(int i=0; i<n; i++){
+		if(coins[i] > sum){
+			cout << sum <<endl;
+			return;
+		}
+		sum += coins[i];
+	}
+	cout << sum <<endl;
 }
 signed main(){
     ios_base::sync_with_stdio(false);
